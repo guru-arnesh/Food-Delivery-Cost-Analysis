@@ -4,7 +4,7 @@ First things first👇
 
 •Code Optimization Highlight:
 
-1) Why this?👇
+**1) Why this?👇**
 
 
 def extract(value):
@@ -15,7 +15,7 @@ def extract(value):
 
 df["Discounts and Offers"] = df["Discounts and Offers"].apply(extract)
 
-If it can be!👇
+**If it can be!👇**
 
 
 df["Discounts and Offers"] = df["Discounts and Offers"].str.split(" ").str[0]
@@ -25,7 +25,7 @@ df["Discounts and Offers"] = df["Discounts and Offers"].str.split(" ").str[0]
 
 
 
-2) Why this?👇
+**2) Why this?👇**
 
 
 def removep(value):
@@ -42,7 +42,7 @@ def removep(value):
 
 df["Discounts and Offers"] = df["Discounts and Offers"].apply(removep)
 
-If it can be!👇
+**If it can be!👇**
 
 
 df['Discounts and Offers'] = df['Discounts and Offers'].str.replace('%', '')

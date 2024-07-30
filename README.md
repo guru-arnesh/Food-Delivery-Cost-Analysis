@@ -22,6 +22,9 @@ df["Discounts and Offers"] = df["Discounts and Offers"].str.split(" ").str[0]
 
 
 
+
+
+
 2) Why this?👇
 
 

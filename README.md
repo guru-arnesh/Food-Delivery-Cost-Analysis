@@ -1,4 +1,4 @@
-||Analyzing the Economics of Food Delivery Services||
+**||Analyzing the Economics of Food Delivery Services||**
 
 First things first👇
 •Code Optimization Highlight:
@@ -7,8 +7,11 @@ First things first👇
 
 
 def extract(value):
+
  a = str(value).split(" ")
+
  return a[0]
+
 df["Discounts and Offers"] = df["Discounts and Offers"].apply(extract)
 
 If it can be!👇
@@ -20,11 +23,17 @@ df["Discounts and Offers"] = df["Discounts and Offers"].str.split(" ").str[0]
 
 
 def removep(value):
+
  if "%" in value:
+
  a = value.replace("%","")
+
  return float(a)
+
  else:
+
  return float(value)
+
 df["Discounts and Offers"] = df["Discounts and Offers"].apply(removep)
 
 If it can be!👇

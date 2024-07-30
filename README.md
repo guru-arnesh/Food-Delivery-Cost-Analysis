@@ -1,6 +1,7 @@
 **||Analyzing the Economics of Food Delivery Services||**
 
 First things first👇
+
 •Code Optimization Highlight:
 
 1) Why this?👇
@@ -18,7 +19,9 @@ If it can be!👇
 
 
 df["Discounts and Offers"] = df["Discounts and Offers"].str.split(" ").str[0]
------------------------------------------------------------------------------------
+
+
+
 2) Why this?👇
 
 
@@ -40,7 +43,7 @@ If it can be!👇
 
 
 df['Discounts and Offers'] = df['Discounts and Offers'].str.replace('%', '')
-------------------------------------------------------------------------------------
+
 📂 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄:
 
 

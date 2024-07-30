@@ -4,6 +4,7 @@
 •Code Optimization Highlight:
 
 1) Why this?👇
+
 def extract(value):
  a = str(value).split(" ")
  return a[0]
@@ -14,6 +15,7 @@ If it can be!👇
 df["Discounts and Offers"] = df["Discounts and Offers"].str.split(" ").str[0]
 -----------------------------------------------------------------------------------
 2) Why this?👇
+
 def removep(value):
  if "%" in value:
  a = value.replace("%","")
